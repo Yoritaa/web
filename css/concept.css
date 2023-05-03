@@ -15,7 +15,7 @@
 }
 
 .title h1 {
-    font-family:  'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: bold;
 }
@@ -66,7 +66,7 @@
     width: 36px;
     height: 3px;
     background-color: #000000;
-    margin-top:20px
+    margin-top: 20px
 }
 
 .feature-text p {
@@ -85,21 +85,21 @@
     margin-right: auto;
 }
 
-.movie  h2 {
+.movie h2 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
 
 .movie h2::after {
-content: '';
-display: block;
-width: 36px;
-height: 3px;
-background-color: #000000;
-margin-top: 20px;
-margin-left: auto;
-margin-right: auto;
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .movie iframe {
@@ -119,6 +119,35 @@ margin-right: auto;
     margin-top: 100px;
 }
 
+@media (max-width:800px) {
+    .feature {
+        display: block;
+        width: 500px;
+        margin-top: 45px;
+    }
 
+    .feature-text {
+        margin-right: 0;
+    }
+
+    .reverse .feature-text {
+        margin-left: 0;
+    }
+
+    .feature img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+.movie {
+    width: 500px;
+    padding: 30px 25px;
+    }
+
+    .movie iframe {
+        height: 240px;
+    }
+}
 
 
